@@ -1539,7 +1539,6 @@
                         formStatus.classList.remove('hidden');
                         form.reset();
                         btnText.textContent = "Message Sent";
-
                     } else {
                         throw new Error('Server returned an error.');
                     }
